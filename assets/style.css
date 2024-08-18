@@ -1,0 +1,126 @@
+@font-face {
+  font-family: thinFont;
+  src: url(fonts/Metropolis-Thin.otf);
+}
+
+@font-face {
+  font-family: thickFont;
+  src: url(fonts/Metropolis-ExtraLight.otf);
+}
+
+
+
+/* Small devices (phones, 768pxpx and down) */
+@media only screen and (max-width: 768px) and (orientation: portrait) {  
+
+  body {
+    font-family: thickFont;
+  }
+  h1 {
+    font-size: 2em;
+  } 
+  p {
+    font-size: 1em;
+  }
+  img {
+    height: 5vh;
+    margin-left:  0.4em;
+    margin-right: 0.4em;
+  }
+  
+}
+
+/* Small devices in landscape mode */
+@media only screen and (max-width: 768px) and (orientation: landscape) {  
+
+  body {
+    font-family: thickFont;
+  }
+  h1 {
+    font-size: 3em;
+  } 
+  p {
+    font-size: 1.5em;
+  }
+  img {
+    height: 6vh;
+    margin-left:  0.4em;
+    margin-right: 0.4em;
+  }
+  
+}
+
+
+/* Larger devices (portrait tablets and above, 768pxpx and up) */
+@media only screen and (min-width: 768px) {  
+
+  body {
+    font-family: thinFont;   
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+  }
+  img {
+    height: 4vh;
+    margin-left:  0.2em;
+    margin-right: 0.2em;
+  }
+
+}
+
+
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #080808;
+    overflow: hidden;
+    /* color: #e6e6e6; */
+    color: #ffffff;
+    font-size: 2vh;
+}
+
+.main {
+    text-align: center;
+    position: absolute;
+    top: 62%;
+    width: 100%;
+}
+
+.waves {
+  text-align: center;
+  position: absolute;
+  top: 2.5%;
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0px;
+}
+
+p {
+  margin: 1.em;
+  text-transform: uppercase;
+  line-height: 1.3em;
+}
+
+img {
+    margin-top:   1.7em;
+    transition: .2s ease-out;
+}
+
+img:hover {
+  opacity: 0.5;
+}

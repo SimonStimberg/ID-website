@@ -9,7 +9,7 @@
 *.mov
 *.mp4
 *.jpg
-*.png
+# *.png
 *.pdf
 *.webp
 
